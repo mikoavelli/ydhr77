@@ -7,7 +7,7 @@ LOG_FILE = "/var/log/arp_logger.log"
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-INTERFACE = "wlo1"
+INTERFACE = "eth0"
 SLEEP_INTERVAL: int = 60
 
 
