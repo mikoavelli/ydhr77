@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/path/to/your/script.sh
+ExecStart=/usr/local/bin/arp_logger.sh
 Restart=on-failure
 User=root
 StandardOutput=syslog
